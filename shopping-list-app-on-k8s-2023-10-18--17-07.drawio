@@ -1,0 +1,78 @@
+<mxfile host="Electron" modified="2023-10-18T09:06:15.072Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.0.2 Chrome/114.0.5735.289 Electron/25.8.4 Safari/537.36" etag="Ho9bRsNs_-PgFUhAEobt" version="22.0.2" type="device">
+  <diagram name="Page-1" id="Zm7NWWKcjck-q3p3Zucb">
+    <mxGraphModel dx="891" dy="683" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="FThKstfr-nVgRxaPIptx-2" value="" style="swimlane;startSize=0;container=0;" parent="1" vertex="1">
+          <mxGeometry x="140" y="160" width="680" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="9a8LMXuzH3HCVktq-myP-6" value="" style="swimlane;startSize=0;" vertex="1" parent="FThKstfr-nVgRxaPIptx-2">
+          <mxGeometry x="50" y="90" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="9a8LMXuzH3HCVktq-myP-7" value="ingress-nginx" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="9a8LMXuzH3HCVktq-myP-6">
+          <mxGeometry width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FThKstfr-nVgRxaPIptx-3" value="azure-k8s-service-cluster" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;container=0;" parent="FThKstfr-nVgRxaPIptx-2" vertex="1">
+          <mxGeometry x="240" y="10" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9a8LMXuzH3HCVktq-myP-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="FThKstfr-nVgRxaPIptx-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-50" y="114.60000000000002" as="sourcePoint" />
+            <mxPoint x="50" y="114.60000000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9a8LMXuzH3HCVktq-myP-12" value="CORS" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="FThKstfr-nVgRxaPIptx-2">
+          <mxGeometry x="350" y="90" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FThKstfr-nVgRxaPIptx-10" value="" style="swimlane;startSize=0;container=0;" parent="FThKstfr-nVgRxaPIptx-2" vertex="1">
+          <mxGeometry x="570" y="90" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FThKstfr-nVgRxaPIptx-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="FThKstfr-nVgRxaPIptx-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="540" y="114.83000000000004" as="sourcePoint" />
+            <mxPoint x="570" y="114.83000000000004" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FThKstfr-nVgRxaPIptx-9" value="pod-shopping-list-api" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;container=0;" parent="FThKstfr-nVgRxaPIptx-2" vertex="1">
+          <mxGeometry x="410" y="90" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FThKstfr-nVgRxaPIptx-8" value="" style="swimlane;startSize=0;container=0;" parent="FThKstfr-nVgRxaPIptx-2" vertex="1">
+          <mxGeometry x="410" y="90" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FThKstfr-nVgRxaPIptx-5" value="" style="swimlane;startSize=0;container=0;" parent="1" vertex="1">
+          <mxGeometry x="315" y="250" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="9a8LMXuzH3HCVktq-myP-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="485" y="274.03999999999996" as="sourcePoint" />
+            <mxPoint x="550" y="274.03999999999996" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="520" y="274" />
+              <mxPoint x="520" y="274" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FThKstfr-nVgRxaPIptx-7" value="pod-shopping-list-front-end" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;container=0;" parent="1" vertex="1">
+          <mxGeometry x="315" y="250" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FThKstfr-nVgRxaPIptx-11" value="pod-postgres" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;container=0;" parent="1" vertex="1">
+          <mxGeometry x="710" y="250" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9a8LMXuzH3HCVktq-myP-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="274" as="sourcePoint" />
+            <mxPoint x="315" y="274.03999999999996" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="295" y="274" />
+              <mxPoint x="295" y="274" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9a8LMXuzH3HCVktq-myP-10" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="235" width="30" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
